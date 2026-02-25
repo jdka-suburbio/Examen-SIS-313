@@ -1,0 +1,73 @@
+body {
+    margin: auto;
+    font-family: Arial;
+}
+
+header h5 {
+    margin: 0;
+    background-color: black;
+    color: rgb(242, 247, 247);
+    height: 40px;
+    display: flex;
+    align-items: center;
+}
+
+title {
+    font-family: 'Franklin Gothic Medium';
+    color: aliceblue;
+    font-size: large;
+}
+
+.logo {
+    margin: 0;
+    background-color: rgb(67, 127, 177);
+    height: 100px;
+    display: flex;
+    align-items: center;
+}
+
+.logo > img{
+    height: 100px;
+    width: 100px;
+    background-color: brown;
+}
+
+section{
+    color: blue;
+}
+
+menu {
+    border: 1px solid black;
+}
+
+.contenedor {
+    display: flex;
+    border: 0.5px solid;
+}
+
+.datos{
+    color: blue;
+}
+
+.datos_llenados{
+    display: flex;
+    justify-content: space-around;
+}
+
+.titulo1 {
+    background-color: black;
+    margin: 0;
+}
+
+.titulo2{
+    margin: 0;
+    background-color: rgb(67, 127, 177);
+    color: aliceblue;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.navbar {
+    display: flex;
+}
