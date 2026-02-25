@@ -1,0 +1,41 @@
+@import url("https://fonts.googleapis.com/css2?family=Oi&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Oi&family=Pacifico&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+}
+.bandera {
+  width: 100px;
+  height: 100px;
+}
+.header {
+  background-color: #2d76bd;
+  margin: 0;
+}
+.title {
+  color: white;
+}
+h1 {
+  font-family: "Oi", serif;
+  color: white;
+}
+.pacific {
+  font-family: "Pacifico", serif;
+  color: white;
+}
+.btn-custom {
+  color: black;
+  background-color: #a1deed;
+  border: 2px solid white;
+}
+.background {
+  background-color: #ebebeb;
+  width: max-content;
+  border: 1px solid black;
+  width: 200px;
+}
+.grid {
+  display: grid;
+  grid-template-columns: 30% 70%;
+}
